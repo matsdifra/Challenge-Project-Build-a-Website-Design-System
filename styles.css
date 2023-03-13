@@ -1,0 +1,95 @@
+body {
+    font-family: 'Trebuchet MS', sans-serif;
+    margin: 0 10%;
+}
+.Yellow {
+    background-color: #ffff00;
+    color: #000;
+}
+.Red {
+    background-color: #ff0000;
+    color: #fff;
+}
+.Blue {
+    background-color: #0000ff;
+    color: #fff;
+}
+.Black {
+    background-color: #000;
+    color: #fff;
+}
+.White {
+    background-color: #fff;
+    color: #000;
+}
+.Grey {
+    background-color: #808080;
+    color: #fff;
+}
+.color, .font {
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px;
+}
+.OpenSans {
+    font-family: 'Open Sans', cursive;
+}
+.RobotoCondensed {
+  font-family: 'Roboto Condensed', serif;
+}
+.Poppins {
+  font-family: 'Poppins', sans-serif;
+}
+.italic {
+  font-style: italic;
+}
+.bold {
+  font-style: bold;
+}
+.H1 {
+  font-family: 'Open Sans';
+  font-size: 18px;
+  font-weight: 500;
+}
+.H2 {
+  font-weight: 500;
+  font-size: 18px;
+  font-family: 'Roboto Condensed';
+}
+.P {
+  font-weight: 400;
+  font-size: 14px;
+  font-family: 'poppins';
+}
+.Colors, .Fonts, .TextStyles, .BackgroundColors, .Layouts, .slds-p-around_medium {
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  margin: 10px 10px;
+}
+.transparent {
+  background: rgba(0, 0, 255, 0.1);
+}
+.semitransparent {
+  background: rgba(0, 0, 255, 0.5);
+}
+.opaque {
+  background: rgba(0, 0, 255);
+}
+.slds-p-around_medium2 {
+    padding: 1rem;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    margin: 0px 10px;
+}
